@@ -28,3 +28,4 @@ console.log(undefined >= 0); //false
 //avoid these comparison
 
 // === -> strict check(datatype + value)
+// == -> check value only
