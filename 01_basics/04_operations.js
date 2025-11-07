@@ -52,3 +52,9 @@ let age = 20;
 // increment -> a++; => pre(++a) & post(a++)
 //decrement -> a--; => pre(--a) & post(a--)
 
+
+// -------------------------Logical Operators---------------------------------
+
+// && -> logical AND
+// || -> logical OR
+// ! -> logical NOT

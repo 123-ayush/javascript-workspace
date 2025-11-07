@@ -28,4 +28,10 @@ console.log(undefined >= 0); //false
 //avoid these comparison
 
 // === -> strict check(datatype + value)
-// == -> check value only
+// == -> check value only'
+
+
+// falsy:
+//       false, 0, -0, 0n(Big Int), ""(empty String), null, undefined, NaN
+// truthy:
+//       everything else
