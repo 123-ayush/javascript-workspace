@@ -116,3 +116,32 @@ let sum = function(num1, num2){
 }
 
 console.log(`function: ${sum(1,2)}`);
+
+
+
+// -------------------------------------Default Parameters---------------------------------
+
+/* 
+
+ex.
+
+function sum(a, b = 33){
+    return a+b;
+}
+
+sum(1); -> 34
+sum(2,3); -> 5
+
+*/
+
+
+// -------------------------------Rest-------------------------------------------
+
+// it is similar to spread in representation and used when you dont know total no.of arguments to be defined 
+
+// function sum(...arg){
+//     return arg.reduce((res,num) => (res+num));
+// }
+
+// allow you to take indefinite number of arguments and bound them in an array
+
