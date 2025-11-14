@@ -27,3 +27,7 @@ let stud = [{
 stud.forEach((student) => {
     console.log(`Marks of ${student.name} is ${student.marks}.`);
 })
+
+stud.forEach((student) => {
+    console.log(`Marks of ${student.name} is ${student.marks}.`);
+})
