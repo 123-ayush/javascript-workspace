@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Practice Starter</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <h2 id="logo">DOM Practice</h2>
+        <ul>
+            <li class="nav-item">Home</li>
+            <li class="nav-item">Features</li>
+            <li class="nav-item">About</li>
+        </ul>
+    </nav>
+
+    <div id="hero">Welcome to DOM Manipulation</div>
+
+    <div id="content">
+
+        <h2 id="section-title">Cards Section</h2>
+
+        <div class="card-container" id="cardContainer">
+            <div class="card" id="card1">
+                <img src="https://picsum.photos/200?random=1" alt="">
+                <h3 class="card-title">Card One</h3>
+                <p class="card-text">This is a card description.</p>
+                <button class="btn show-modal-btn">Open Modal</button>
+            </div>
+
+            <div class="card" id="card2">
+                <img src="https://picsum.photos/200?random=2" alt="">
+                <h3 class="card-title">Card Two</h3>
+                <p class="card-text">This is another card description.</p>
+                <button class="btn show-modal-btn">Open Modal</button>
+            </div>
+
+            <div class="card" id="card3">
+                <img src="https://picsum.photos/200?random=3" alt="">
+                <h3 class="card-title">Card Three</h3>
+                <p class="card-text">More card info here.</p>
+                <button class="btn show-modal-btn">Open Modal</button>
+            </div>
+        </div>
+
+        <h2 style="margin-top: 40px;">Practice Input</h2>
+        <input type="text" id="textInput" placeholder="Type something..." style="padding:10px;width:300px;">
+        <button id="changeTitleBtn" class="btn" style="width:200px;margin-top:10px;">Change Section Title</button>
+    </div>
+
+    <div id="modal">
+        <div id="modal-content">
+            <h3 id="modalTitle">Modal Title</h3>
+            <p id="modalDesc">This is a modal popup.</p>
+            <button id="closeModalBtn" class="btn">Close</button>
+        </div>
+    </div>
+
+    <footer>© 2025 DOM Practice Template</footer>
+
+    <script href="app.js"></script>
+
+</body>
+</html>
