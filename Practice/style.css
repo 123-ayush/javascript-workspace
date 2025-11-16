@@ -13,6 +13,10 @@ body {
     color: blue;
 }
 
+.greenLine {
+    color: aqua;
+}
+
 .blackBorder{
     border: solid black;
 }
