@@ -17,9 +17,9 @@ DOM(Document Object Model) -> represents a document with a logical tree. it allo
 
 // 4. querySelector -> allow to use any css selector.
 
-    // document.querySelector('p') -> sleect first p element
-    // document.querySelector('#myId') -> sleect first element with id = myid
-    // document.querySelector('.myclass') -> sleect first element with class = myclass
+    // document.querySelector('p') -> select first p element
+    // document.querySelector('#myId') -> select first element with id = myid
+    // document.querySelector('.myclass') -> select first element with class = myclass
     // document.querySelectorAll("p") -> select all p elements
 
 

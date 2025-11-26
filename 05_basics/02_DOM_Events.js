@@ -41,6 +41,7 @@ btn.onmouseenter = function() {
 // ------------------------------------------AddEventListener------------------------------------------------
 
 // event.addeventlistener(event, callback);
+// we can add event listener to any kind of element
 
 btn.addEventListener("click", function() {
     console.log("Button was clicked!");
@@ -70,4 +71,38 @@ inp.addEventListener("keydown", function(event){
     }else if(event.code == "KeyR"){
         console.log("Character will move right!");
     }
+});
+
+// --------------------------------------Events on forms--------------------------------------------
+
+let form = document.querySelector("form");
+
+form.addEventListener("submit", function(event) {
+    event.preventDefault(); // helps to prevent the default tab swtich to the url written in action attribute
+    alert("Form Submitted!");
+});
+
+// there is a property named 'elements' through which we can access any element of form
+
+
+// -------------------------------------change event----------------------------------------------
+
+//The change event occurs when the value of an element has been changed (only works on <input>, <textarea> and <select> elements).
+
+let ip = document.querySelector("input");
+
+ip.addEventListener("change", function(){
+    console.log("change event.");
+    console.log("New value is ", ip.value);
+});
+
+// ----------------------------------------input event-------------------------------------------
+
+//The input event fires when the value of an <input> , <select> , or <textarea> element has been changed.
+
+let ip1 = document.querySelector("input");
+
+ip.addEventListener("input", function(){
+    console.log("Input event.");
+    console.log("New value is ", ip.value);
 });
